@@ -92,6 +92,9 @@ NOTE: You are allowed to prettify the pattern using markdown-features:
 `com.intellij.remoteServer.configuration.deployment.DeploymentConfigurationManager.createAndRunConfiguration(ServerType, RemoteServer)` method removed
 : Use `DeploymentConfigurationManager.createAndRunConfiguration(ServerType, RemoteServer, DeploymentSourceType)` instead 
 
+`org.jetbrains.plugins.github.api.request.GithubGistRequest.FileContent` class moved to package `org.jetbrains.plugins.github.api.data.request`
+: Package `request` was moved under `data` package
+
 ## Changes in DataGrip and Database Tools plugin 2019.3
 
 `com.intellij.sql.dialects.mssql.MssqlDialect` class renamed to `com.intellij.sql.dialects.mssql.MsDialect`
